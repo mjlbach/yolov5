@@ -12,7 +12,6 @@ dependencies:
   - numpy
   - pytorch
   - torchvision
-  - opencv
   - pillow
   - pyyaml
   - requests
@@ -23,6 +22,8 @@ dependencies:
   - seaborn
   - pip:
     - thop
+    - opencv-python
+    - wandb
   #   - tb-nightly
   #   - pdbpp
       # - opencv-python
