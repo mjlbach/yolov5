@@ -1,0 +1,689 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./coco
+
+train:
+  - assembling_gift_baskets_0_Beechwood_0_int_0_2021-10-26_12-40-39_frames
+  - assembling_gift_baskets_0_Beechwood_0_int_0_2021-10-26_12-46-37_frames
+  - assembling_gift_baskets_0_Beechwood_0_int_0_2021-10-26_12-51-50_frames
+  - assembling_gift_baskets_0_Beechwood_0_int_1_2021-10-26_15-24-39_frames
+  - assembling_gift_baskets_0_Pomaria_1_int_0_2021-10-26_15-47-22_frames
+  - bottling_fruit_0_Benevolence_1_int_0_2021-09-10_14-29-04_frames
+  - bottling_fruit_0_Wainscott_0_int_0_2021-05-24_19-46-46_frames
+  - bottling_fruit_0_Wainscott_0_int_0_2021-06-05_18-37-24_frames
+  - bottling_fruit_0_Wainscott_0_int_0_2021-09-15_18-30-15_frames
+  - bottling_fruit_0_Wainscott_0_int_1_2021-06-22_14-43-48_frames
+  - boxing_books_up_for_storage_0_Benevolence_1_int_0_2021-06-05_19-24-23_frames
+  - boxing_books_up_for_storage_0_Benevolence_1_int_0_2021-09-10_15-29-43_frames
+  - boxing_books_up_for_storage_0_Benevolence_1_int_0_2021-09-10_15-35-47_frames
+  - boxing_books_up_for_storage_0_Benevolence_1_int_1_2021-06-22_14-53-13_frames
+  - boxing_books_up_for_storage_0_Merom_0_int_0_2021-09-10_15-39-28_frames
+  - bringing_in_wood_0_Benevolence_1_int_0_2021-09-15_18-37-15_frames
+  - bringing_in_wood_0_Benevolence_1_int_0_2021-09-15_18-40-16_frames
+  - bringing_in_wood_0_Benevolence_1_int_0_2021-09-15_18-42-25_frames
+  - bringing_in_wood_0_Pomaria_1_int_0_2021-10-26_16-04-03_frames
+  - brushing_lint_off_clothing_0_Benevolence_2_int_0_2021-06-04_18-40-06_frames
+  - brushing_lint_off_clothing_0_Pomaria_2_int_0_2021-06-04_16-14-19_frames
+  - brushing_lint_off_clothing_0_Pomaria_2_int_0_2021-06-04_17-41-56_frames
+  - brushing_lint_off_clothing_0_Pomaria_2_int_0_2021-09-15_18-44-34_frames
+  - brushing_lint_off_clothing_0_Pomaria_2_int_1_2021-06-22_15-02-21_frames
+  - chopping_vegetables_0_Rs_int_0_2021-05-25_22-01-16_frames
+  - chopping_vegetables_0_Rs_int_0_2021-09-15_19-07-43_frames
+  - chopping_vegetables_0_Rs_int_0_2021-09-15_19-12-58_frames
+  - chopping_vegetables_0_Rs_int_1_2021-06-22_15-09-10_frames
+  - chopping_vegetables_0_Wainscott_0_int_0_2021-06-06_17-43-07_frames
+  - cleaning_a_car_0_Ihlen_0_int_0_2021-08-24_17-08-35_frames
+  - cleaning_a_car_0_Ihlen_0_int_0_2021-09-11_16-32-56_frames
+  - cleaning_a_car_0_Ihlen_0_int_0_2021-09-11_16-37-11_frames
+  - cleaning_a_car_0_Ihlen_0_int_0_2021-09-11_16-40-21_frames
+  - cleaning_a_car_0_Ihlen_0_int_1_2021-06-12_19-27-35_frames
+  - cleaning_barbecue_grill_0_Ihlen_0_int_0_2021-08-24_17-12-30_frames
+  - cleaning_barbecue_grill_0_Ihlen_0_int_0_2021-09-10_15-55-10_frames
+  - cleaning_barbecue_grill_0_Ihlen_0_int_0_2021-09-10_16-02-39_frames
+  - cleaning_barbecue_grill_0_Ihlen_0_int_0_2021-09-10_16-05-45_frames
+  - cleaning_barbecue_grill_0_Ihlen_0_int_1_2021-06-12_19-31-04_frames
+  - cleaning_bathrooms_0_Benevolence_0_int_0_2021-06-02_16-08-34_frames
+  - cleaning_bathrooms_0_Benevolence_0_int_0_2021-09-10_16-08-45_frames
+  - cleaning_bathrooms_0_Benevolence_0_int_0_2021-09-10_16-15-36_frames
+  - cleaning_bathrooms_0_Benevolence_0_int_1_2021-06-12_19-33-28_frames
+  - cleaning_bathrooms_0_Merom_1_int_0_2021-06-10_21-00-27_frames
+  - cleaning_bathtub_0_Benevolence_0_int_0_2021-09-10_16-18-34_frames
+  - cleaning_bathtub_0_Pomaria_0_int_0_2021-09-10_16-22-10_frames
+  - cleaning_bathtub_0_Pomaria_0_int_0_2021-09-10_16-24-25_frames
+  - cleaning_bathtub_0_Pomaria_0_int_0_2021-09-10_16-26-26_frames
+  - cleaning_bathtub_0_Pomaria_0_int_1_2021-06-12_19-36-51_frames
+  - cleaning_bedroom_0_Beechwood_1_int_0_2021-09-10_21-47-15_frames
+  - cleaning_bedroom_0_Beechwood_1_int_0_2021-09-10_21-59-25_frames
+  - cleaning_bedroom_0_Beechwood_1_int_0_2021-09-10_22-05-51_frames
+  - cleaning_bedroom_0_Beechwood_1_int_1_2021-06-12_19-40-30_frames
+  - cleaning_bedroom_0_Benevolence_2_int_0_2021-06-06_18-10-59_frames
+  - cleaning_carpets_0_Beechwood_0_int_0_2021-10-26_16-08-09_frames
+  - cleaning_carpets_0_Wainscott_1_int_0_2021-09-11_01-04-35_frames
+  - cleaning_carpets_0_Wainscott_1_int_0_2021-09-11_01-12-41_frames
+  - cleaning_carpets_0_Wainscott_1_int_0_2021-09-11_01-16-39_frames
+  - cleaning_carpets_0_Wainscott_1_int_1_2021-06-23_15-55-58_frames
+  - cleaning_closet_0_Beechwood_1_int_0_2021-06-11_19-57-59_frames
+  - cleaning_closet_0_Beechwood_1_int_0_2021-08-24_17-15-17_frames
+  - cleaning_closet_0_Beechwood_1_int_0_2021-10-25_19-41-50_frames
+  - cleaning_closet_0_Beechwood_1_int_0_2021-10-25_19-50-32_frames
+  - cleaning_closet_0_Beechwood_1_int_1_2021-10-26_19-21-26_frames
+  - cleaning_cupboards_0_Merom_1_int_0_2021-06-06_18-22-23_frames
+  - cleaning_cupboards_0_Wainscott_1_int_0_2021-09-15_19-26-55_frames
+  - cleaning_cupboards_0_Wainscott_1_int_0_2021-09-15_19-31-08_frames
+  - cleaning_cupboards_0_Wainscott_1_int_0_2021-09-15_19-35-40_frames
+  - cleaning_floors_0_Merom_0_int_0_2021-06-02_17-12-18_frames
+  - cleaning_floors_0_Merom_0_int_0_2021-06-03_14-06-34_frames
+  - cleaning_floors_0_Merom_0_int_0_2021-10-20_04-52-38_frames
+  - cleaning_floors_0_Merom_0_int_1_2021-06-23_16-12-28_frames
+  - cleaning_floors_0_Pomaria_0_int_0_2021-06-06_18-28-10_frames
+  - cleaning_freezer_0_Pomaria_1_int_0_2021-10-26_12-56-20_frames
+  - cleaning_freezer_0_Pomaria_1_int_0_2021-10-26_12-59-25_frames
+  - cleaning_freezer_0_Pomaria_1_int_0_2021-10-26_13-02-16_frames
+  - cleaning_freezer_0_Pomaria_1_int_1_2021-10-26_16-18-00_frames
+  - cleaning_freezer_0_Wainscott_0_int_0_2021-06-06_18-35-14_frames
+  - cleaning_garage_0_Ihlen_0_int_0_2021-08-24_17-40-48_frames
+  - cleaning_garage_0_Ihlen_0_int_0_2021-09-11_18-27-51_frames
+  - cleaning_garage_0_Ihlen_0_int_0_2021-09-11_18-33-08_frames
+  - cleaning_garage_0_Ihlen_0_int_0_2021-09-11_18-37-32_frames
+  - cleaning_garage_0_Ihlen_0_int_1_2021-06-23_16-20-00_frames
+  - cleaning_high_chair_0_Merom_1_int_0_2021-05-23_23-26-19_frames
+  - cleaning_high_chair_0_Wainscott_0_int_0_2021-05-23_23-22-28_frames
+  - cleaning_high_chair_0_Wainscott_0_int_0_2021-06-05_18-03-15_frames
+  - cleaning_high_chair_0_Wainscott_0_int_0_2021-09-11_18-42-55_frames
+  - cleaning_high_chair_0_Wainscott_0_int_1_2021-06-23_16-28-09_frames
+  - cleaning_kitchen_cupboard_0_Pomaria_1_int_0_2021-10-26_13-05-36_frames
+  - cleaning_kitchen_cupboard_0_Pomaria_1_int_0_2021-10-26_13-11-00_frames
+  - cleaning_kitchen_cupboard_0_Pomaria_1_int_0_2021-10-26_13-15-29_frames
+  - cleaning_kitchen_cupboard_0_Pomaria_1_int_1_2021-10-26_16-24-25_frames
+  - cleaning_kitchen_cupboard_0_Wainscott_0_int_0_2021-06-08_16-10-02_frames
+  - cleaning_microwave_oven_0_Benevolence_1_int_0_2021-09-11_01-24-12_frames
+  - cleaning_microwave_oven_0_Benevolence_1_int_0_2021-09-11_01-27-10_frames
+  - cleaning_microwave_oven_0_Benevolence_1_int_0_2021-09-11_01-29-36_frames
+  - cleaning_microwave_oven_0_Benevolence_1_int_1_2021-06-23_16-44-10_frames
+  - cleaning_microwave_oven_0_Rs_int_0_2021-06-06_18-52-15_frames
+  - cleaning_out_drawers_0_Benevolence_1_int_0_2021-10-20_04-59-04_frames
+  - cleaning_out_drawers_0_Benevolence_1_int_0_2021-10-20_05-03-27_frames
+  - cleaning_out_drawers_0_Benevolence_1_int_0_2021-10-20_05-07-48_frames
+  - cleaning_out_drawers_0_Benevolence_1_int_1_2021-06-23_16-47-46_frames
+  - cleaning_out_drawers_0_Rs_int_0_2021-06-08_16-31-47_frames
+  - cleaning_oven_0_Benevolence_1_int_0_2021-09-11_12-20-40_frames
+  - cleaning_oven_0_Benevolence_1_int_0_2021-09-11_12-30-22_frames
+  - cleaning_oven_0_Benevolence_1_int_0_2021-09-11_12-38-24_frames
+  - cleaning_oven_0_Rs_int_0_2021-06-06_19-15-39_frames
+  - cleaning_shoes_0_Benevolence_2_int_0_2021-06-06_19-20-58_frames
+  - cleaning_shoes_0_Pomaria_2_int_0_2021-09-11_13-54-11_frames
+  - cleaning_shoes_0_Pomaria_2_int_0_2021-09-11_13-57-12_frames
+  - cleaning_shoes_0_Pomaria_2_int_0_2021-09-11_13-59-22_frames
+  - cleaning_sneakers_0_Beechwood_0_int_0_2021-10-26_12-53-32_frames
+  - cleaning_sneakers_0_Pomaria_1_int_0_2021-10-26_13-25-37_frames
+  - cleaning_sneakers_0_Pomaria_1_int_0_2021-10-26_13-31-29_frames
+  - cleaning_sneakers_0_Pomaria_1_int_0_2021-10-26_13-36-08_frames
+  - cleaning_stove_0_Merom_1_int_0_2021-06-08_16-37-49_frames
+  - cleaning_stove_0_Wainscott_0_int_0_2021-05-30_12-41-55_frames
+  - cleaning_stove_0_Wainscott_0_int_0_2021-09-11_12-43-11_frames
+  - cleaning_stove_0_Wainscott_0_int_0_2021-09-11_12-51-07_frames
+  - cleaning_table_after_clearing_0_Beechwood_0_int_0_2021-10-25_19-55-28_frames
+  - cleaning_table_after_clearing_0_Beechwood_0_int_0_2021-10-25_19-58-38_frames
+  - cleaning_table_after_clearing_0_Beechwood_0_int_0_2021-10-26_13-42-03_frames
+  - cleaning_table_after_clearing_0_Merom_1_int_0_2021-06-06_19-48-44_frames
+  - cleaning_the_hot_tub_0_Ihlen_0_int_0_2021-08-24_22-19-07_frames
+  - cleaning_the_hot_tub_0_Ihlen_0_int_0_2021-09-11_13-39-55_frames
+  - cleaning_the_hot_tub_0_Ihlen_0_int_0_2021-09-11_13-43-17_frames
+  - cleaning_the_hot_tub_0_Ihlen_0_int_0_2021-09-11_13-45-55_frames
+  - cleaning_the_pool_0_Ihlen_0_int_0_2021-05-28_18-45-06_frames
+  - cleaning_the_pool_0_Ihlen_0_int_0_2021-06-01_15-30-31_frames
+  - cleaning_the_pool_0_Ihlen_0_int_0_2021-08-24_22-23-24_frames
+  - cleaning_the_pool_0_Ihlen_0_int_0_2021-09-11_13-49-25_frames
+  - cleaning_toilet_0_Benevolence_2_int_0_2021-06-06_19-51-44_frames
+  - cleaning_toilet_0_Merom_0_int_0_2021-06-01_15-36-47_frames
+  - cleaning_toilet_0_Merom_0_int_0_2021-09-11_13-34-38_frames
+  - cleaning_toilet_0_Merom_0_int_0_2021-09-11_13-37-17_frames
+  - cleaning_up_after_a_meal_0_Merom_1_int_0_2021-06-06_19-55-27_frames
+  - cleaning_up_after_a_meal_0_Wainscott_0_int_0_2021-10-20_05-14-56_frames
+  - cleaning_up_after_a_meal_0_Wainscott_0_int_0_2021-10-20_05-26-40_frames
+  - cleaning_up_after_a_meal_0_Wainscott_0_int_0_2021-10-20_05-33-24_frames
+  - cleaning_up_refrigerator_0_Pomaria_1_int_0_2021-10-26_19-25-07_frames
+  - cleaning_up_refrigerator_0_Wainscott_0_int_0_2021-05-30_12-49-18_frames
+  - cleaning_up_refrigerator_0_Wainscott_0_int_0_2021-10-25_20-01-54_frames
+  - cleaning_up_refrigerator_0_Wainscott_0_int_0_2021-10-26_00-02-35_frames
+  - cleaning_up_the_kitchen_only_0_Pomaria_1_int_0_2021-10-25_19-14-17_frames
+  - cleaning_up_the_kitchen_only_0_Pomaria_1_int_0_2021-10-26_00-44-14_frames
+  - cleaning_up_the_kitchen_only_0_Pomaria_1_int_0_2021-10-26_00-50-16_frames
+  - cleaning_up_the_kitchen_only_0_Rs_int_0_2021-09-14_21-02-37_frames
+  - cleaning_windows_0_Rs_int_0_2021-05-23_23-11-46_frames
+  - cleaning_windows_0_Wainscott_0_int_0_2021-05-23_23-07-05_frames
+  - cleaning_windows_0_Wainscott_0_int_0_2021-06-05_17-54-40_frames
+  - cleaning_windows_0_Wainscott_0_int_0_2021-06-16_18-24-10_frames
+  - clearing_the_table_after_dinner_0_Benevolence_1_int_0_2021-05-23_17-44-35_frames
+  - clearing_the_table_after_dinner_0_Ihlen_0_int_0_2021-06-04_17-06-49_frames
+  - clearing_the_table_after_dinner_0_Ihlen_0_int_0_2021-06-05_18-49-57_frames
+  - clearing_the_table_after_dinner_0_Ihlen_0_int_0_2021-10-25_23-01-51_frames
+  - collect_misplaced_items_0_Merom_1_int_0_2021-05-23_21-36-30_frames
+  - collect_misplaced_items_0_Wainscott_0_int_0_2021-05-23_21-43-26_frames
+  - collect_misplaced_items_0_Wainscott_0_int_0_2021-06-06_11-54-11_frames
+  - collect_misplaced_items_0_Wainscott_0_int_0_2021-10-25_23-57-43_frames
+  - collecting_aluminum_cans_0_Ihlen_1_int_0_2021-06-06_20-13-28_frames
+  - collecting_aluminum_cans_0_Pomaria_2_int_0_2021-05-24_22-03-38_frames
+  - collecting_aluminum_cans_0_Pomaria_2_int_0_2021-10-05_19-47-32_frames
+  - collecting_aluminum_cans_0_Pomaria_2_int_0_2021-10-07_17-23-44_frames
+  - defrosting_freezer_0_Beechwood_0_int_0_2021-10-25_23-04-16_frames
+  - defrosting_freezer_0_Beechwood_0_int_0_2021-10-25_23-10-43_frames
+  - defrosting_freezer_0_Beechwood_0_int_0_2021-10-25_23-15-25_frames
+  - defrosting_freezer_0_Ihlen_1_int_0_2021-06-06_20-17-31_frames
+  - filling_a_Christmas_stocking_0_Beechwood_0_int_0_2021-10-26_19-03-10_frames
+  - filling_a_Christmas_stocking_0_Rs_int_0_2021-05-25_22-46-38_frames
+  - filling_a_Christmas_stocking_0_Rs_int_0_2021-06-04_18-47-42_frames
+  - filling_a_Christmas_stocking_0_Rs_int_0_2021-10-25_20-07-44_frames
+  - filling_an_Easter_basket_0_Benevolence_1_int_0_2021-10-25_23-41-33_frames
+  - filling_an_Easter_basket_0_Benevolence_1_int_0_2021-10-25_23-47-06_frames
+  - filling_an_Easter_basket_0_Benevolence_1_int_0_2021-10-25_23-52-51_frames
+  - filling_an_easter_basket_0_Pomaria_1_int_0_2021-10-26_12-58-06_frames
+  - installing_a_fax_machine_0_Beechwood_0_int_0_2021-10-25_20-20-45_frames
+  - installing_a_fax_machine_0_Beechwood_0_int_0_2021-10-25_20-22-22_frames
+  - installing_a_fax_machine_0_Beechwood_0_int_0_2021-10-25_20-23-56_frames
+  - installing_a_fax_machine_0_Pomaria_0_int_0_2021-06-08_18-26-19_frames
+  - installing_a_modem_0_Beechwood_0_int_0_2021-10-25_20-25-48_frames
+  - installing_a_modem_0_Beechwood_0_int_0_2021-10-25_20-27-20_frames
+  - installing_a_modem_0_Beechwood_0_int_0_2021-10-25_20-28-55_frames
+  - installing_a_modem_0_Pomaria_0_int_0_2021-06-08_18-28-21_frames
+  - installing_a_printer_0_Beechwood_0_int_0_2021-10-25_20-30-54_frames
+  - installing_a_printer_0_Beechwood_0_int_0_2021-10-25_20-32-54_frames
+  - installing_a_printer_0_Beechwood_0_int_0_2021-10-25_20-34-36_frames
+  - installing_a_printer_0_Pomaria_0_int_0_2021-06-08_18-33-07_frames
+  - installing_a_scanner_0_Beechwood_0_int_0_2021-10-25_20-36-55_frames
+  - installing_a_scanner_0_Beechwood_0_int_0_2021-10-25_20-38-27_frames
+  - installing_a_scanner_0_Beechwood_0_int_0_2021-10-25_20-39-59_frames
+  - installing_a_scanner_0_Pomaria_0_int_0_2021-06-08_18-34-59_frames
+  - installing_alarms_0_Merom_1_int_0_2021-05-23_23-02-24_frames
+  - installing_alarms_0_Wainscott_0_int_0_2021-05-23_22-58-28_frames
+  - installing_alarms_0_Wainscott_0_int_0_2021-06-04_17-26-03_frames
+  - installing_alarms_0_Wainscott_0_int_0_2021-10-25_20-17-26_frames
+  - laying_tile_floors_0_Beechwood_0_int_0_2021-10-26_17-26-23_frames
+  - laying_tile_floors_0_Benevolence_2_int_0_2021-05-23_18-19-40_frames
+  - laying_tile_floors_0_Benevolence_2_int_0_2021-10-25_20-41-54_frames
+  - laying_tile_floors_0_Benevolence_2_int_0_2021-10-25_20-44-32_frames
+  - laying_wood_floors_0_Benevolence_1_int_0_2021-06-10_19-54-59_frames
+  - laying_wood_floors_0_Pomaria_1_int_0_2021-10-25_20-46-59_frames
+  - laying_wood_floors_0_Pomaria_1_int_0_2021-10-25_20-49-48_frames
+  - laying_wood_floors_0_Pomaria_1_int_0_2021-10-25_20-52-18_frames
+  - loading_the_dishwasher_0_Benevolence_1_int_0_2021-10-20_06-05-32_frames
+  - loading_the_dishwasher_0_Benevolence_1_int_0_2021-10-20_06-10-42_frames
+  - loading_the_dishwasher_0_Benevolence_1_int_0_2021-10-20_06-15-55_frames
+  - loading_the_dishwasher_0_Wainscott_0_int_0_2021-06-10_22-31-50_frames
+  - locking_every_door_0_Merom_1_int_0_2021-10-20_05-50-03_frames
+  - locking_every_door_0_Merom_1_int_0_2021-10-20_05-53-14_frames
+  - locking_every_door_0_Merom_1_int_0_2021-10-20_05-57-09_frames
+  - locking_every_door_0_Pomaria_0_int_0_2021-08-24_22-41-46_frames
+  - locking_every_window_0_Merom_1_int_0_2021-11-01_14-51-10_frames
+  - locking_every_window_0_Wainscott_0_int_0_2021-10-26_22-57-35_frames
+  - locking_every_window_0_Wainscott_0_int_0_2021-10-26_23-00-59_frames
+  - locking_every_window_0_Wainscott_0_int_0_2021-10-26_23-03-38_frames
+  - making_tea_0_Wainscott_0_int_0_2021-05-30_11-59-53_frames
+  - making_tea_0_Wainscott_0_int_0_2021-06-02_22-31-12_frames
+  - making_tea_0_Wainscott_0_int_0_2021-10-25_20-58-25_frames
+  - making_tea_0_Wainscott_0_int_0_2021-10-26_12-49-48_frames
+  - mopping_floors_0_Benevolence_2_int_0_2021-05-23_17-49-14_frames
+  - mopping_floors_0_Benevolence_2_int_0_2021-06-05_19-28-43_frames
+  - mopping_floors_0_Benevolence_2_int_0_2021-10-25_21-01-58_frames
+  - mopping_floors_0_Ihlen_0_int_0_2021-10-26_17-41-50_frames
+  - moving_boxes_to_storage_0_Ihlen_0_int_0_2021-06-08_14-59-52_frames
+  - moving_boxes_to_storage_0_Merom_0_int_0_2021-06-08_13-02-25_frames
+  - moving_boxes_to_storage_0_Merom_0_int_0_2021-06-08_13-10-44_frames
+  - moving_boxes_to_storage_0_Merom_0_int_0_2021-06-11_20-04-35_frames
+  - opening_packages_0_Benevolence_2_int_0_2021-10-25_21-04-15_frames
+  - opening_packages_0_Benevolence_2_int_0_2021-10-25_21-05-40_frames
+  - opening_packages_0_Benevolence_2_int_0_2021-10-25_21-06-42_frames
+  - opening_packages_0_Pomaria_2_int_0_2021-06-08_15-17-28_frames
+  - opening_presents_0_Benevolence_2_int_0_2021-10-25_21-07-39_frames
+  - opening_presents_0_Benevolence_2_int_0_2021-10-25_21-09-50_frames
+  - opening_presents_0_Benevolence_2_int_0_2021-10-25_21-10-48_frames
+  - opening_presents_0_Pomaria_2_int_0_2021-06-08_15-22-15_frames
+  - organizing_boxes_in_garage_0_Ihlen_0_int_0_2021-05-24_21-31-50_frames
+  - organizing_boxes_in_garage_0_Ihlen_0_int_0_2021-06-05_18-54-10_frames
+  - organizing_boxes_in_garage_0_Ihlen_0_int_0_2021-08-24_22-59-54_frames
+  - organizing_boxes_in_garage_0_Ihlen_0_int_0_2021-10-26_09-25-46_frames
+  - organizing_file_cabinet_0_Beechwood_0_int_0_2021-10-25_23-35-44_frames
+  - organizing_file_cabinet_0_Beechwood_0_int_0_2021-10-26_09-28-49_frames
+  - organizing_file_cabinet_0_Beechwood_0_int_0_2021-10-26_09-35-20_frames
+  - organizing_file_cabinet_0_Pomaria_0_int_0_2021-06-08_15-27-20_frames
+  - organizing_school_stuff_0_Benevolence_2_int_0_2021-05-24_17-22-00_frames
+  - organizing_school_stuff_0_Benevolence_2_int_0_2021-10-26_09-39-22_frames
+  - organizing_school_stuff_0_Benevolence_2_int_0_2021-10-26_09-43-44_frames
+  - organizing_school_stuff_0_Wainscott_1_int_0_2021-08-24_22-56-24_frames
+  - packing_adult_s_bags_0_Ihlen_1_int_0_2021-06-03_18-35-58_frames
+  - packing_adult_s_bags_0_Ihlen_1_int_0_2021-10-26_09-46-42_frames
+  - packing_adult_s_bags_0_Ihlen_1_int_0_2021-10-26_09-54-15_frames
+  - packing_adult_s_bags_0_Pomaria_2_int_0_2021-06-08_15-48-47_frames
+  - packing_bags_or_suitcase_0_Merom_1_int_0_2021-10-26_09-59-00_frames
+  - packing_bags_or_suitcase_0_Merom_1_int_0_2021-10-26_10-01-43_frames
+  - packing_bags_or_suitcase_0_Merom_1_int_0_2021-10-26_10-04-07_frames
+  - packing_bags_or_suitcase_0_Pomaria_0_int_0_2021-06-08_19-04-37_frames
+  - packing_boxes_for_household_move_or_trip_0_Beechwood_0_int_0_2021-10-26_10-06-45_frames
+  - packing_boxes_for_household_move_or_trip_0_Beechwood_0_int_0_2021-10-26_10-10-46_frames
+  - packing_boxes_for_household_move_or_trip_0_Beechwood_0_int_0_2021-10-26_10-14-14_frames
+  - packing_boxes_for_household_move_or_trip_0_Ihlen_1_int_0_2021-06-08_19-16-19_frames
+  - packing_car_for_trip_0_Ihlen_0_int_0_2021-08-24_23-04-17_frames
+  - packing_car_for_trip_0_Ihlen_0_int_0_2021-10-26_10-17-49_frames
+  - packing_car_for_trip_0_Ihlen_0_int_0_2021-10-26_10-23-40_frames
+  - packing_car_for_trip_0_Ihlen_0_int_0_2021-10-26_10-27-23_frames
+  - packing_child_s_bag_0_Beechwood_1_int_0_2021-06-02_20-01-40_frames
+  - packing_child_s_bag_0_Beechwood_1_int_0_2021-10-26_10-30-39_frames
+  - packing_child_s_bag_0_Beechwood_1_int_0_2021-10-26_10-33-11_frames
+  - packing_child_s_bag_0_Wainscott_1_int_0_2021-06-08_19-21-47_frames
+  - packing_food_for_work_0_Beechwood_0_int_0_2021-10-26_10-41-16_frames
+  - packing_food_for_work_0_Beechwood_0_int_0_2021-10-26_10-47-49_frames
+  - packing_food_for_work_0_Beechwood_0_int_0_2021-10-26_10-50-13_frames
+  - packing_food_for_work_0_Ihlen_1_int_0_2021-06-08_19-36-15_frames
+  - packing_lunches_0_Beechwood_0_int_0_2021-10-26_10-52-40_frames
+  - packing_lunches_0_Beechwood_0_int_0_2021-10-26_10-58-38_frames
+  - packing_lunches_0_Wainscott_0_int_0_2021-06-08_19-43-27_frames
+  - packing_picnics_0_Pomaria_1_int_0_2021-10-26_17-58-24_frames
+  - packing_picnics_0_Wainscott_0_int_0_2021-05-23_22-32-44_frames
+  - waxing_cars_or_other_vehicles_0_Ihlen_0_int_0_2021-10-25_23-05-51_frames
+val: 
+  - packing_lunches_0_Beechwood_0_int_0_2021-10-26_11-03-14_frames
+test:  # test images (optional)
+  - packing_food_for_work_0_Beechwood_0_int_0_2021-10-26_10-50-13_frames
+
+# Classes
+ 
+nc: 398
+
+names:
+- placeholder1
+- placeholder2
+- placeholder3
+- agent
+- walls
+- floors
+- ceilings
+- alarm
+- almond
+- apple
+- apricot
+- armchair
+- artichoke
+- atomizer
+- backpack
+- bagel
+- baguette
+- ball
+- banana
+- baseboard
+- basil
+- basket
+- bath_towel
+- bathtub
+- bean
+- bed
+- beef
+- beer
+- beet
+- bell
+- bell_pepper
+- bench
+- blender
+- board_game
+- bottom_cabinet
+- bottom_cabinet_no_top
+- bow
+- bowl
+- bracelet
+- breakfast_table
+- briefcase
+- broccoli
+- broom
+- bucket
+- bulldog_clip
+- bulletin_board
+- burner
+- butter
+- calculator
+- caliper
+- candle
+- candy_cane
+- canned_food
+- cantaloup
+- car
+- carafe
+- carpet
+- carpet_sweeper
+- carrot
+- carton
+- carving_knife
+- casserole
+- catsup
+- cauldron
+- celery
+- cereal
+- chaise_longue
+- cheese
+- cherry
+- chest
+- chestnut
+- chicken
+- chili
+- chip
+- chives
+- chocolate_box
+- chopping_board
+- chopstick
+- christmas_tree
+- christmas_tree_decorated
+- cinnamon
+- clout_nail
+- clove
+- coat
+- coatrack
+- coconut
+- coffee_cup
+- coffee_maker
+- coffee_pouch
+- coffee_table
+- colander
+- cologne
+- comb
+- conditioner
+- console_table
+- container_cranberry
+- container_date
+- cookie
+- cord
+- countertop
+- cpu_board
+- crab
+- cream
+- cream_pitcher
+- crib
+- cruet
+- crumb
+- cucumber
+- cup
+- cupcake
+- dart
+- dartboard
+- dental_floss
+- desk
+- detergent
+- digital_scale
+- dinner_napkin
+- dipper
+- dish_rack
+- dishtowel
+- dishwasher
+- document
+- door
+- dress
+- drill
+- drumstick
+- dryer
+- duffel_bag
+- dustpan
+- egg
+- eggplant
+- envelope
+- eraser
+- facsimile
+- fillet
+- fish
+- floor_lamp
+- flour
+- folder
+- folderal
+- folding_chair
+- foot_rule
+- fridge
+- frying_pan
+- gaming_table
+- ginger
+- gingerbread
+- glass
+- glove
+- gooseberry
+- grandfather_clock
+- grape
+- grater
+- green_onion
+- green_onion_chopped
+- griddle
+- grill
+- guacamole
+- guitar
+- gym_shoe
+- hairbrush
+- half_apple
+- half_apricot
+- half_chestnut
+- half_coconut
+- half_kiwi
+- half_lemon
+- half_mushroom
+- half_orange
+- half_peach
+- half_pear
+- half_pineapple
+- half_plum
+- half_pomegranate
+- half_pomelo
+- half_strawberry
+- half_tomato
+- half_vidalia_onion
+- hamburger
+- hammer
+- hand_towel
+- hanger
+- hard_drive
+- hardback
+- hat
+- head_cabbage
+- headset
+- heater
+- highchair
+- highlighter
+- hinge
+- honing_steel
+- hook
+- hose
+- ice_cube
+- ink_cartridge
+- iron
+- jam
+- jar
+- jeans
+- jewel
+- juice
+- kettle
+- keyboard
+- kitchen_analog_scale
+- kiwi
+- ladder
+- laptop
+- lasagna
+- lawn_mower
+- lemon
+- lettuce
+- lid
+- light_bulb
+- lime
+- lipstick
+- lollipop
+- lotion
+- loudspeaker
+- magazine
+- martini
+- mat
+- mayonnaise
+- medicine
+- microwave
+- milk
+- mirror
+- modem
+- monitor
+- mouse
+- mousetrap
+- muffin
+- mug
+- mushroom
+- necklace
+- newspaper
+- notebook
+- oatmeal
+- olive
+- olive_oil
+- orange
+- oven
+- package
+- paint
+- paintbrush
+- painting
+- pajamas
+- paper_bag
+- paper_clip
+- paper_towel
+- paper_towel_holder
+- parsley
+- pasta
+- pea
+- peach
+- pear
+- pedestal_table
+- pegboard
+- pen
+- pencil
+- pencil_box
+- pepper_grinder
+- perfume
+- piano
+- picture
+- pillow
+- pineapple
+- pistachio
+- plate
+- platter
+- plum
+- plywood
+- pocketknife
+- pomegranate
+- pomelo
+- pool
+- pool_table
+- pop
+- pop_case
+- pork
+- pot_plant
+- potato
+- powder_bottle
+- pretzel
+- printer
+- prosciutto
+- protein_powder
+- pumpkin
+- puree
+- radish
+- rag
+- rail_fence
+- rake
+- range_hood
+- raspberry
+- razor
+- rib
+- ribbon
+- ring
+- rocking_chair
+- roller
+- rosehip
+- router
+- salad
+- salt
+- sandal
+- saucepan
+- sausage
+- saw
+- scanner
+- scarf
+- scissors
+- scraper
+- screwdriver
+- scrub_brush
+- shampoo
+- sheet
+- shelf
+- shoulder_bag
+- shower
+- sink
+- soap
+- sock
+- sofa
+- soup
+- soup_ladle
+- spaghetti_sauce
+- spatula
+- speaker_system
+- spinach
+- spoon
+- stand
+- standing_tv
+- steak
+- sticky_note
+- stocking
+- stool
+- stove
+- straight_chair
+- straight_pin
+- straw
+- strawberry
+- sugar_jar
+- sunglass
+- sunscreen
+- sushi
+- sweater
+- sweet_corn
+- swivel_chair
+- t-shirt
+- table_knife
+- table_lamp
+- tablefork
+- tape
+- tart
+- tea_bag
+- teapot
+- thumbtack
+- tile
+- tinsel
+- toaster
+- toasting_fork
+- toilet
+- tomato
+- tongs
+- toothbrush
+- toothpaste
+- toothpick
+- top_cabinet
+- towel_rack
+- toy
+- trash_can
+- tray
+- treadmill
+- trowel
+- turnip
+- umbrella
+- underwear
+- vacuum
+- vidalia_onion
+- video_game
+- vinegar
+- walker
+- wall_clock
+- wall_mounted_tv
+- wall_socket
+- walnut
+- washer
+- watch
+- water
+- watermelon
+- whiteboard
+- window
+- wine_bottle
+- wrapped_gift
+- wreath
+- yogurt
+- zucchini
