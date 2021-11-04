@@ -12,23 +12,23 @@ ci:
   # submodules: true
 
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
-    hooks:
-      - id: end-of-file-fixer
-      - id: trailing-whitespace
-      - id: check-case-conflict
-      - id: check-yaml
-      - id: check-toml
-      - id: pretty-format-json
-      - id: check-docstring-first
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.0.1
+  hooks:
+  - id: end-of-file-fixer
+  - id: trailing-whitespace
+  - id: check-case-conflict
+  - id: check-yaml
+  - id: check-toml
+  - id: pretty-format-json
+  - id: check-docstring-first
 
-  - repo: https://github.com/asottile/pyupgrade
-    rev: v2.23.1
-    hooks:
-      - id: pyupgrade
-        args: [--py36-plus]
-        name: Upgrade code
+- repo: https://github.com/asottile/pyupgrade
+  rev: v2.23.1
+  hooks:
+  - id: pyupgrade
+    args: [--py36-plus]
+    name: Upgrade code
 
   - repo: https://github.com/PyCQA/isort
     rev: 5.9.3
@@ -59,8 +59,24 @@ repos:
   #  hooks:
   #    - id: yesqa
 
-  - repo: https://github.com/PyCQA/flake8
-    rev: 3.9.2
-    hooks:
-      - id: flake8
-        name: PEP8
+- repo: https://github.com/PyCQA/flake8
+  rev: 3.9.2
+  hooks:
+  - id: flake8
+    name: PEP8
+- repo: https://github.com/iterative/dvc
+  rev: master
+  hooks:
+  - id: dvc-pre-commit
+    language_version: python3
+    stages:
+    - commit
+  - id: dvc-pre-push
+    language_version: python3
+    stages:
+    - push
+  - id: dvc-post-checkout
+    language_version: python3
+    stages:
+    - post-checkout
+    always_run: true
